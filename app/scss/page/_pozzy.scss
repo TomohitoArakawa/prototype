@@ -1,0 +1,274 @@
+@-webkit-keyframes effect {
+  from {
+     -webkit-transform:scale(0);
+     transform:scale(0);
+  }
+  to {
+     -webkit-transform:scale(1);
+     transform:scale(1);
+  }
+}
+@keyframes effect {
+  from {
+     -webkit-transform:scale(0);
+     transform:scale(0);
+  }
+  to {
+     -webkit-transform:scale(1);
+     transform:scale(1);
+  }
+}
+.pozzy-l-content {
+  position: relative;
+  width: 650px;
+  margin: $space-m auto;
+  padding: $space-l;
+  background-color: $color-pale_gray;
+  -webkit-box-shadow: $shadow-gray;
+  box-shadow: $shadow-gray;
+}
+.pozzy-l-map-area {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  width: 650px;
+  height: auto;
+  margin: 0 auto;
+  background-color: $color-white;
+}
+.pozzy-c__pin {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    &.is-hide {
+      display: none;
+    }
+}
+.pozzy-c__pin--large {
+  @extend .pozzy-c__pin;
+  span {
+    &:before {
+      position: absolute;
+      z-index: 4;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 64px;
+      margin: -60px 0 0 -32px;
+      background: url(../img/pozzy/c-map__pin--large.svg) no-repeat;
+      background-size: 100% 100%;
+      background-position: bottom center;
+    }
+    &:after {
+      position: absolute;
+      z-index: 1;
+      display: block;
+      content: "";
+      width: 96px;
+      height: 96px;
+      margin: -48px 0 0 -48px;
+      background: $color-green_opacity;
+      border-radius: 50%;
+      opacity: .4;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-name: effect;
+      animation-name: effect;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+.pozzy-c__pin--medium {
+  @extend .pozzy-c__pin;
+  span {
+    &:before {
+      position: absolute;
+      z-index: 3;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 64px;
+      margin: -60px 0 0 -32px;
+      background: url(../img/pozzy/c-map__pin--medium.svg) no-repeat;
+      background-size: 100% 100%;
+      background-position: bottom center;
+    }
+    &:after {
+      position: absolute;
+      z-index: 1;
+      display: block;
+      content: "";
+      width: 48px;
+      height: 48px;
+      margin: -24px 0 0 -24px;
+      background: $color-green_opacity;
+      border-radius: 50%;
+      opacity: .4;
+      -webkit-animation-duration: 2s;
+      animation-duration: 2s;
+      -webkit-animation-name: effect;
+      animation-name: effect;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+    }
+  }
+}
+.pozzy-c__pin--small {
+  @extend .pozzy-c__pin;
+  span {
+    &:before {
+      position: absolute;
+      z-index: 2;
+      display: block;
+      content: "";
+      width: 64px;
+      height: 64px;
+      margin: -60px 0 0 -32px;
+      background: url(../img/pozzy/c-map__pin--small.svg) no-repeat;
+      background-size: 100% 100%;
+      background-position: bottom center;
+    }
+  }
+}
+.pozzy-c__map {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  opacity: 1;
+}
+.pozzy-c-tool {
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  z-index: 5;
+  width: 40px;
+  height: 105px;
+  margin-top: -52.5px;
+  margin-right: -395px;
+}
+.pozzy-c-tool-body {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  width: inherit;
+  height: inherit;
+  padding: 5px;
+  background: $color-gray;
+  -webkit-box-shadow: $shadow-gray;
+  box-shadow: $shadow-gray;
+}
+.pozzy-c-function {
+  width: 30px;
+  height: 30px;
+  background-size: 25px 25px;
+  cursor: pointer;
+}
+.pozzy-c-function__all {
+  @extend .pozzy-c-function;
+  background:$color-white url(../img/pozzy/c-map__pin--all.svg) no-repeat center center;
+  &.is-hide {
+    background:$color-white url(../img/pozzy/c-map__pin--all_hide.svg) no-repeat center center;
+  }
+}
+.pozzy-c-function__target {
+  @extend .pozzy-c-function;
+  background:$color-white url(../img/pozzy/c-map__pin--large.svg) no-repeat center center;
+  &.is-hide {
+    background:$color-white url(../img/pozzy/c-map__pin--large_hide.svg) no-repeat center center;
+  }
+}
+.pozzy-c-function__other {
+  @extend .pozzy-c-function;
+  background:$color-white url(../img/pozzy/c-map__pin--other.svg) no-repeat center center;
+  &.is-hide {
+    background:$color-white url(../img/pozzy/c-map__pin--other_hide.svg) no-repeat center center;
+  }
+}
+.pozzy-c-location {
+  position: fixed;
+  bottom: 50px;
+  right: 50%;
+  margin-right: -150px;
+  // box-shadow: $shadow-gray;
+  z-index: 100;
+}
+.pozzy-c-carousel__arrow {
+  -webkit-appearance: none;
+  border: 0;
+  outline: 0;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: -15px;
+  background-color: transparent;
+  border-radius: 15px;
+  -webkit-box-shadow: $shadow-gray;
+  box-shadow: $shadow-gray;
+  -webkit-transition: $transition-hover;
+  transition: $transition-hover;
+  cursor: pointer;
+  &:hover {
+    opacity: .8;
+  }
+}
+.pozzy-c-carousel__prev {
+  @extend .pozzy-c-carousel__arrow;
+  left: -15px;
+  background: url(../img/pozzy/c-carousel_prev.svg) center center;
+}
+.pozzy-c-carousel__next {
+  @extend .pozzy-c-carousel__arrow;
+  right: -15px;
+  background: url(../img/pozzy/c-carousel_next.svg) center center;
+}
+.pozzy-c-carousel {
+  overflow: hidden;
+  width: 302px;
+  height: 104px;
+}
+.pozzy-c-carousel-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+}
+.pozzy-c-carousel__slide {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 300px;
+  height: 100px;
+  margin: 0 2px 4px 0;
+  padding: $space-xs $space-s;
+  background-color: $color-white;
+  border: 1px solid $color-pale_gray;
+  -webkit-box-shadow: $shadow-gray;
+  box-shadow: $shadow-gray;
+}
+.pozzy-c-carousel__slide__account {
+  margin-bottom: 5px;
+  font-size: $font-s;
+  color: $color-dark-gray;
+}
+.pozzy-c-carousel__slide__device {
+  font-size: $font-l;
+  color: $color-dark-gray;
+}
+// #fn-01:checked ~ label,
+// #fn-02:checked ~ label,
+// #fn-03:checked ~ label {
+//   box-shadow: 1px 1px 1px 1px $color-pale_gray inset;
+//   box-sizing: border-box;
+// }

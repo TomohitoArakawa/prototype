@@ -1,0 +1,20 @@
+{
+  "name": "prototype",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "荒川友人 <u.jin.arakawa@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/TomohitoArakawa/prototype",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
+}

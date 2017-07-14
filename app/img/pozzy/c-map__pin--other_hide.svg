@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 21.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;}
+	.st1{fill:#038EA5;}
+	.st2{fill:#CACACA;}
+	.st3{fill:#038EA5;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#CACACA;stroke:#FFFFFF;stroke-width:0.5;stroke-miterlimit:10;}
+	.st6{fill:#038EA5;stroke:#FFFFFF;stroke-width:0.25;stroke-miterlimit:10;}
+	.st7{fill:#5D9B99;}
+	.st8{fill:none;stroke:#038EA5;stroke-width:3;stroke-miterlimit:10;}
+	.st9{fill:#038EA5;stroke:#CACACA;stroke-miterlimit:10;}
+	.st10{fill:#FFFFFF;stroke:#038EA5;stroke-miterlimit:10;}
+	.st11{fill:none;stroke:#038EA5;stroke-miterlimit:10;}
+	.st12{clip-path:url(#SVGID_2_);fill:#038EA5;}
+	.st13{fill:#CECECE;}
+</style>
+<g id="c-map_x5F__x5F_all_x5F_hide">
+</g>
+<g id="c-map_x5F__x5F_all">
+</g>
+<g id="c-map_x5F__x5F_pin--other_x5F_hide">
+	<rect class="st0" width="64" height="64"/>
+</g>
+<g id="c-map_x5F__x5F_pin--other_1_">
+	<g id="pin_x5F_m_12_">
+		<path class="st5" d="M42.3,16.3C42.3,23.9,32,34,32,34S21.7,23.9,21.7,16.3C21.7,10.6,26.3,6,32,6S42.3,10.6,42.3,16.3z"/>
+		<circle class="st4" cx="32" cy="16.3" r="5.1"/>
+	</g>
+	<g id="pin_x5F_m_11_">
+		<path class="st5" d="M58,40.3C58,47.9,47.7,58,47.7,58S37.4,47.9,37.4,40.3C37.4,34.6,42,30,47.7,30S58,34.6,58,40.3z"/>
+		<circle class="st4" cx="47.7" cy="40.3" r="5.1"/>
+	</g>
+	<g id="pin_x5F_m_10_">
+		<path class="st5" d="M26.6,40.3c0,7.6-10.3,17.7-10.3,17.7S6,47.9,6,40.3C6,34.6,10.6,30,16.3,30S26.6,34.6,26.6,40.3z"/>
+		<circle class="st4" cx="16.3" cy="40.3" r="5.1"/>
+	</g>
+</g>
+<g id="c-map_x5F__x5F_pin--large_x5F_hide">
+</g>
+<g id="c-map_x5F__x5F_pin--large">
+</g>
+<g id="c-map_x5F__x5F_pin--medium">
+</g>
+<g id="c-map_x5F__x5F_pin--small">
+</g>
+<g id="c-link_x5F__x5F_arakawa">
+</g>
+<g id="c-carousel_x5F_next">
+</g>
+<g id="c-carousel_x5F_prev">
+</g>
+<g id="c-link_x5F_external">
+</g>
+<g id="c-card_x5F_schedule">
+</g>
+<g id="c-card_x5F_wireframe">
+</g>
+<g id="c-card_x5F_definition">
+</g>
+<g id="c-card_x5F_version">
+</g>
+<g id="c-card_x5F_developer">
+</g>
+<g id="c-card_x5F_cms">
+</g>
+<g id="c-card_x5F_javascript">
+</g>
+<g id="c-card_x5F_css">
+</g>
+<g id="c-card_x5F_html">
+</g>
+<g id="c-card_x5F_sort">
+</g>
+<g id="c-card_x5F_leader">
+</g>
+<g id="c-card_x5F_comment">
+</g>
+<g id="tone_x26_manner">
+</g>
+<g id="guide">
+</g>
+</svg>

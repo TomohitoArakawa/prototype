@@ -1,0 +1,46 @@
+/* color */
+$color-white: #ffffff;
+$color-black: #333333;
+$color-pale_gray: #f4f4f4;
+$color-gray: #cacaca;
+$color-dark_gray: #888888;
+$color-green: #038EA5;
+$color-green_opacity: rgba(3, 142, 165, .5);
+$color-yellow: #f9b630;
+$color-orange: #FE382B;
+
+/* font-size */
+$font-xs: 10px;
+$font-s: 12px;
+$font-m: 14px;
+$font-l: 16px;
+$font-xl: 24px;
+$font-2xl: 48px;
+$font-3xl: 64px;
+
+/* fot-size TO DO Delete */
+$font-largeXL: 30px;
+$font-largeL: 24px;
+$font-largeM :18px;
+$font-largeS :16px;
+$font-m :14px;
+$font-small :12px;
+
+/* line-height */
+$line-height-s: 1;
+$line-height-m: 1.5;
+$line-height-l: 1.7;
+
+/* margin padding */
+$space-xs: 12.5px;
+$space-s: 25px;
+$space-m: 50px;
+$space-l: 100px;
+$space-xl: 200px;
+
+/* box-shadow */
+$shadow-gray: 2px 4px 2px rgba(61,75,76,.15);
+$shadow-dark-gray: 2 4px 2px rgba(202,202,202,.15);
+
+/* trasintion */
+$transition-hover: all .3s ease-out;
