@@ -67,7 +67,7 @@
       width: 96px;
       height: 96px;
       margin: -48px 0 0 -48px;
-      background: $color-green_opacity;
+      background: $color-orange_opacity;
       border-radius: 50%;
       opacity: .4;
       -webkit-animation-duration: 2s;
@@ -102,7 +102,7 @@
       width: 48px;
       height: 48px;
       margin: -24px 0 0 -24px;
-      background: $color-green_opacity;
+      background: $color-orange_opacity;
       border-radius: 50%;
       opacity: .4;
       -webkit-animation-duration: 2s;
@@ -153,12 +153,15 @@
   box-sizing: border-box;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
+  -webkit-flex-direction: column;
   flex-direction: column;
   -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
   width: inherit;
   height: inherit;
@@ -198,7 +201,7 @@
   position: fixed;
   bottom: 50px;
   right: 50%;
-  margin-right: -150px;
+  margin-right: -140px;
   // box-shadow: $shadow-gray;
   z-index: 100;
 }
@@ -216,6 +219,7 @@
   -webkit-box-shadow: $shadow-gray;
   box-shadow: $shadow-gray;
   -webkit-transition: $transition-hover;
+  -o-transition: $transition-hover;
   transition: $transition-hover;
   cursor: pointer;
   &:hover {
@@ -234,21 +238,23 @@
 }
 .pozzy-c-carousel {
   overflow: hidden;
-  width: 302px;
+  width: 282px;
   height: 104px;
 }
 .pozzy-c-carousel-body {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 
 }
 .pozzy-c-carousel__slide {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  width: 300px;
+  width: 280px;
   height: 100px;
   margin: 0 2px 4px 0;
   padding: $space-xs $space-s;
@@ -266,9 +272,33 @@
   font-size: $font-l;
   color: $color-dark-gray;
 }
-// #fn-01:checked ~ label,
-// #fn-02:checked ~ label,
-// #fn-03:checked ~ label {
-//   box-shadow: 1px 1px 1px 1px $color-pale_gray inset;
-//   box-sizing: border-box;
-// }
+
+/* smartdevice */
+@media screen and (max-width: 667px) {
+  .pozzy-l-content {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  .pozzy-l-map-area {
+    width: 100%;
+    height: auto;
+  }
+  .pozzy-l-footer {
+    position: fixed;
+    bottom: 0;
+  }
+  .pozzy-c-tool {
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    z-index: 5;
+    width: 40px;
+    height: 105px;
+    margin-top: -52.5px;
+    margin-right: -50%;
+  }
+}

@@ -19,7 +19,7 @@ var config = {
       fileName: 'app.js'
     },
     files: [
-      './app/js/*.js'
+      './app/js/**/*.js'
     ]
   },
   sass: {

@@ -5,3 +5,10 @@
   width: 950px;
   margin: 0 auto;
 }
+
+/* smartdevice */
+@media screen and (max-width: 667px) {
+  .l-content {
+    width: 100%;
+  }
+}
