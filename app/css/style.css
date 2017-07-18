@@ -462,6 +462,8 @@ footer {
   .pozzy-l-map-area {
     width: 100%;
     height: auto; }
+  .pozzy-c-location {
+    bottom: 25px; }
   .pozzy-l-footer {
     position: fixed;
     bottom: 0; }
