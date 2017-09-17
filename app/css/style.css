@@ -269,7 +269,7 @@ footer {
   width: 96px;
   height: 96px;
   margin: -48px 0 0 -48px;
-  background: rgba(233, 88, 85, 0.8);
+  background: rgba(160, 202, 192, 0.8);
   border-radius: 50%;
   opacity: .4;
   -webkit-animation-duration: 2s;
@@ -299,7 +299,7 @@ footer {
   width: 48px;
   height: 48px;
   margin: -24px 0 0 -24px;
-  background: rgba(233, 88, 85, 0.8);
+  background: rgba(160, 202, 192, 0.8);
   border-radius: 50%;
   opacity: .4;
   -webkit-animation-duration: 2s;
