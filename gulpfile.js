@@ -66,7 +66,7 @@ gulp.task('server', function() {
     port: config.server.port,
     server: {
       baseDir: './app/',
-      index  : 'pozzy.html'
+      index  : 'js_native_01.html'
     }
   });
 });
@@ -113,7 +113,7 @@ gulp.task('js', function() {
   return gulp.src(config.js.files)
     .pipe($.concat(config.js.output.fileName))
     .pipe($.plumber.stop())
-    .pipe(gulp.dest(config.js.output.directory));
+    // .pipe(gulp.dest(config.js.output.directory));
 });
 
 // jsとcssとscssのビルド処理

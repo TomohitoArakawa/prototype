@@ -1,0 +1,40 @@
+.native-section {
+  margin-bottom: $space-m;
+  &:first-child,
+  &:last-child {
+    margin-top: $space-m;
+  }
+}
+.native-header--lv02 {
+  margin-bottom: $space-s;
+  color: $color-dark_gray;
+  font-size: $font-largeL;
+  border-bottom: 1px solid $color-gray;
+}
+.native-header--lv03 {
+  margin-bottom: $space-xs;
+  color: $color-dark_gray;
+  font-size: $font-largeM;
+  font-weight: bold;
+}
+.native-text,
+.native-number {
+  transition: all .5s ease-out;
+}
+.native-number {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  background-color: black;
+}
+.native-square {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: $color-green;
+}
+.is-active {
+  color: $color-green!important;
+}
