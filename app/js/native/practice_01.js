@@ -72,12 +72,3 @@ if (z === 3) {
 } else {
   console.log('false');
 }
-
-//switch文
-switch (expression) {
-  case expression:
-
-    break;
-  default:
-
-}

@@ -205,6 +205,11 @@ footer {
 /* -----------------------------------------------------------------
    Utility
    ----------------------------------------------------------------- */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both; }
+
 /* ==========================================================================
    Page
    ========================================================================== */
@@ -517,3 +522,35 @@ footer {
 
 .is-active {
   color: #a0cac0 !important; }
+
+.scroll_x-l-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; }
+
+.scroll_x-l-wrapper {
+  width: initial;
+  margin-top: 50px; }
+
+.scroll_x-l-content {
+  overflow-x: scroll;
+  width: initial;
+  height: 500px;
+  border: 1px solid #888888; }
+
+.scroll_x-l-content__inner {
+  width: 2000px;
+  height: 1000px; }
+
+.scroll_x-c-axis {
+  float: left;
+  margin: 50px;
+  width: 300px;
+  height: 300px;
+  background-color: #09c;
+  color: #fff;
+  font-size: 100px; }
+  .scroll_x-c-axis:focus {
+    border: none;
+    outline: none; }

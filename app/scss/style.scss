@@ -34,7 +34,7 @@
 /* -----------------------------------------------------------------
    Utility
    ----------------------------------------------------------------- */
-
+@import "object/utility/_clearfix.scss";
 
 
 /* ==========================================================================
@@ -44,3 +44,5 @@
 @import "page/_pozzy";
 @import "page/_native";
 @import "page/_canvas";
+@import "./page/_scroll_x";
+@import "./page/_scroll_slanting";
