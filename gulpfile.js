@@ -66,7 +66,7 @@ gulp.task('server', function() {
     port: config.server.port,
     server: {
       baseDir: './app/',
-      index  : 'js_native_01.html'
+      index  : 'pozzy.html'
     }
   });
 });
